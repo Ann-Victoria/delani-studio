@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat+Alternates&display=swap"
-      rel="stylesheet">
-    
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
     <link href="css/style.css" rel="stylesheet" type =text/css>
     <title>Delani Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat+Alternates&display=swap"
+    rel="stylesheet">
   </head>
   <p>
     <div id="title">
+      <img src="Images/logo/logo.png" alt="logo">
       <h1>WELCOME <br />TO DELANI STUDIO</h1>
       <p>Amazing People, Amazing Designs!!</p>
+      <img src="Images/mouse_click.png" alt="mouse-click">
     </div>
     <h1>About Us</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
@@ -25,7 +25,6 @@
       Nulla placerat felis sit amet quam posuere, non congue elit pulvinar. <br>
       Etiam imperdiet diam nunc, eu interdum lacus venenatis ut.<br>
       Vestibulum pellentesque nulla ante, non feugiat erat bibendum quis.
-
     </p>
     <div class="services">
       <h1>SERVICES</h1>
@@ -33,11 +32,47 @@
         Proin rutrum dui non ligula eleifend, ut pulvinar lacus pulvinar.<br>
         Fusce id lectus non ipsum consequat tempor eget non erat. Nulla rhoncus tincidunt porta.</p>
     </div>
-    <h1>What we do</h1>
-      <p>
+    <h1>What We Do</h1>
+      <p id="services-icons">
         <img src="Images/services_icons/design_icon.png" alt="image">
+          <header>Design</header>
+          <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
+            Nunc id nisi id neque eleifend aliquam vitae non est. <br>
+            Cras quis ullamcorper urna. Etiam ut finibus ipsum, ut scelerisque metus. Nam consectetur purus eu placerat finibus. <br>
+            Curabitur sem elit, vulputate ac nisl ac, ultricies elementum neque. <br>
+            Duis porta libero eget elit hendrerit congue. <br>
+            Ut nec nibh quis enim porta accumsan ac a lacus. <br>
+            Vivamus faucibus, lorem ac pulvinar sodales, purus libero mattis neque, eget tincidunt est quam non quam. <br>
+            In nec orci eget velit porta pharetra nec vel arcu. <br>
+            Donec finibus molestie pellentesque. Aenean rhoncus tincidunt suscipit. <br>
+            Nullam vitae elit rutrum, vestibulum massa eu, bibendum libero.
+          </p>
         <img src="Images/services_icons/dev_icon.png" alt="image">
+          <header>Development</header>
+          <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
+            Nunc id nisi id neque eleifend aliquam vitae non est. <br>
+            Cras quis ullamcorper urna. Etiam ut finibus ipsum, ut scelerisque metus. Nam consectetur purus eu placerat finibus. <br>
+            Curabitur sem elit, vulputate ac nisl ac, ultricies elementum neque. <br>
+            Duis porta libero eget elit hendrerit congue. <br>
+            Ut nec nibh quis enim porta accumsan ac a lacus. <br>
+            Vivamus faucibus, lorem ac pulvinar sodales, purus libero mattis neque, eget tincidunt est quam non quam. <br>
+            In nec orci eget velit porta pharetra nec vel arcu. <br>
+            Donec finibus molestie pellentesque. Aenean rhoncus tincidunt suscipit. <br>
+            Nullam vitae elit rutrum, vestibulum massa eu, bibendum libero.
+          </p>
         <img src="Images/services_icons/product_icon.png" alt="image">
+          <heading>Product Management</heading>
+          <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
+            Nunc id nisi id neque eleifend aliquam vitae non est. <br>
+            Cras quis ullamcorper urna. Etiam ut finibus ipsum, ut scelerisque metus. Nam consectetur purus eu placerat finibus. <br>
+            Curabitur sem elit, vulputate ac nisl ac, ultricies elementum neque. <br>
+            Duis porta libero eget elit hendrerit congue. <br>
+            Ut nec nibh quis enim porta accumsan ac a lacus. <br>
+            Vivamus faucibus, lorem ac pulvinar sodales, purus libero mattis neque, eget tincidunt est quam non quam. <br>
+            In nec orci eget velit porta pharetra nec vel arcu. <br>
+            Donec finibus molestie pellentesque. Aenean rhoncus tincidunt suscipit. <br>
+            Nullam vitae elit rutrum, vestibulum massa eu, bibendum libero.
+          </p>
       </p>
     <h1>PORTFOLIO</h1>
     <div class="container">
@@ -72,28 +107,29 @@
         
     <form id="form">
       <h1>CONTACT US</h1>
-      <input type="text" id="name" placeholder="Name" />
-      <input type="text" id="email" placeholder="Email" /><br>
-      <input type="text" id="message" placeholder="Your Message Here" />
+      <input type="text" id="name" name="name" placeholder="Name" />
+      <input type="text" id="email" name="email" placeholder="Email" /><br><br>
+      <textarea type="text" id="message" name="message" rows="7" cols="50">Your Message Here</textarea> /><br>
+      <button type="submit" id="button">Submit</button>
     </form>
     <div id="apps">
-      <img src="Images/social_icons/behance.png" alt="icon">
+      <img src="Images/social_icons/twitter.png" alt="icon">
       <img src="Images/social_icons/dribble.png" alt="icon">
       <img src="Images/social_icons/facebook.png" alt="icon">
-      <img src="Images/social_icons/flickr.png" alt="icon">
       <img src="Images/social_icons/g_plus.png" alt="icon">
-      <img src="Images/social_icons/pinterest.png" alt="icon">
       <img src="Images/social_icons/skype.png" alt="icon">
       <img src="Images/social_icons/stumble_upon.png" alt="icon">
-      <img src="Images/social_icons/twitter.png" alt="icon">
       <img src="Images/social_icons/you_tube.png" alt="icon">
+      <img src="Images/social_icons/behance.png" alt="icon">
+      <img src="Images/social_icons/pinterest.png" alt="icon">
+      <img src="Images/social_icons/flickr.png" alt="icon">
     </div>
     <div id="footer">
       <p>DELANI STUDIO<br>
         2019
       </p>
     </div>
-
+    <script src="scripts/jquery-3.6.0.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
