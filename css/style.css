@@ -19,15 +19,26 @@ p {
   padding: 150px;
   color: beige;
 }
-#services-icons img {
-margin-left: 300px;
-}
 #form {
   background-image: url(/Images/backgrounds/c_image.jpg);
   position: relative;
   padding: 280px;
   color: blanchedalmond;
   
+}
+.description1, .description2, .description3{
+  display: none;
+}
+
+#portfolio {
+  column-count: 4;
+  
+  margin: 10px;
+
+}
+.port {
+
+  margin:10px
 
 }
 #apps {
