@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="bootstrap.css" type="text/css">
     <link href="css/style.css" rel="stylesheet" type =text/css>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
     <title>Delani Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat+Alternates&display=swap"
     rel="stylesheet">
@@ -33,78 +35,58 @@
         Fusce id lectus non ipsum consequat tempor eget non erat. Nulla rhoncus tincidunt porta.</p>
     </div>
     <h1>What We Do</h1>
-      <p id="services-icons">
-        <img src="Images/services_icons/design_icon.png" alt="image">
-          <header>Design</header>
-          <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
-            Nunc id nisi id neque eleifend aliquam vitae non est. <br>
-            Cras quis ullamcorper urna. Etiam ut finibus ipsum, ut scelerisque metus. Nam consectetur purus eu placerat finibus. <br>
-            Curabitur sem elit, vulputate ac nisl ac, ultricies elementum neque. <br>
-            Duis porta libero eget elit hendrerit congue. <br>
-            Ut nec nibh quis enim porta accumsan ac a lacus. <br>
-            Vivamus faucibus, lorem ac pulvinar sodales, purus libero mattis neque, eget tincidunt est quam non quam. <br>
-            In nec orci eget velit porta pharetra nec vel arcu. <br>
-            Donec finibus molestie pellentesque. Aenean rhoncus tincidunt suscipit. <br>
-            Nullam vitae elit rutrum, vestibulum massa eu, bibendum libero.
-          </p>
-        <img src="Images/services_icons/dev_icon.png" alt="image">
-          <header>Development</header>
-          <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
-            Nunc id nisi id neque eleifend aliquam vitae non est. <br>
-            Cras quis ullamcorper urna. Etiam ut finibus ipsum, ut scelerisque metus. Nam consectetur purus eu placerat finibus. <br>
-            Curabitur sem elit, vulputate ac nisl ac, ultricies elementum neque. <br>
-            Duis porta libero eget elit hendrerit congue. <br>
-            Ut nec nibh quis enim porta accumsan ac a lacus. <br>
-            Vivamus faucibus, lorem ac pulvinar sodales, purus libero mattis neque, eget tincidunt est quam non quam. <br>
-            In nec orci eget velit porta pharetra nec vel arcu. <br>
-            Donec finibus molestie pellentesque. Aenean rhoncus tincidunt suscipit. <br>
-            Nullam vitae elit rutrum, vestibulum massa eu, bibendum libero.
-          </p>
-        <img src="Images/services_icons/product_icon.png" alt="image">
-          <heading>Product Management</heading>
-          <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
-            Nunc id nisi id neque eleifend aliquam vitae non est. <br>
-            Cras quis ullamcorper urna. Etiam ut finibus ipsum, ut scelerisque metus. Nam consectetur purus eu placerat finibus. <br>
-            Curabitur sem elit, vulputate ac nisl ac, ultricies elementum neque. <br>
-            Duis porta libero eget elit hendrerit congue. <br>
-            Ut nec nibh quis enim porta accumsan ac a lacus. <br>
-            Vivamus faucibus, lorem ac pulvinar sodales, purus libero mattis neque, eget tincidunt est quam non quam. <br>
-            In nec orci eget velit porta pharetra nec vel arcu. <br>
-            Donec finibus molestie pellentesque. Aenean rhoncus tincidunt suscipit. <br>
-            Nullam vitae elit rutrum, vestibulum massa eu, bibendum libero.
-          </p>
+      <p>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="Images/services_icons/design_icon.png" alt="image" id="col1">
+              <div class="description1">
+                <header>DESIGN</header>
+                <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
+                  Nunc id nisi id neque eleifend aliquam vitae non est. <br>
+                  Cras quis ullamcorper urna. Etiam ut finibus ipsum, ut scelerisque metus. Nam consectetur purus eu placerat finibus. <br>
+                  Curabitur sem elit, vulputate ac nisl ac, ultricies elementum neque. <br>
+                  Duis porta libero eget elit hendrerit congue. <br>
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="Images/services_icons/dev_icon.png" alt="image" id="col2">
+              <div class="description2">
+                <header2>DEVELOPMENT</header2>
+                  <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
+                    Nunc id nisi id neque eleifend aliquam vitae non est. <br>
+                    Cras quis ullamcorper urna. Etiam ut finibus ipsum, ut scelerisque metus. Nam consectetur purus eu placerat finibus. <br>
+                    Curabitur sem elit, vulputate ac nisl ac, ultricies elementum neque. <br>
+                    Duis porta libero eget elit hendrerit congue. <br>
+                  </p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="Images/services_icons/product_icon.png" alt="image" id="col3">
+              <div class="description3">  
+                <header3>PRODUCT MANAGEMENT</header3>
+                <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
+                  Nunc id nisi id neque eleifend aliquam vitae non est. <br>
+                  Cras quis ullamcorper urna. Etiam ut finibus ipsum, ut scelerisque metus. Nam consectetur purus eu placerat finibus. <br>
+                  Curabitur sem elit, vulputate ac nisl ac, ultricies elementum neque. <br>
+                  Duis porta libero eget elit hendrerit congue. <br>
+                </p>
+              </div> 
+          </div>
+        </div>
       </p>
     <h1>PORTFOLIO</h1>
-    <div class="container">
-      <div class="row justify-content-start">
-        <div class="col-4">
-          <img src="Images/portfolio/work4.jpg" alt="An Image">
-        </div>
-        <div class="col-4">
-          <img src="Images/portfolio/work3.jpg" alt="An Image">
-        </div>
-        <div class="col-4">
-          <img src="Images/portfolio/work2.jpg" alt="An Image">
-        </div>
-        <div class="col-4">
-          <img src="Images/portfolio/work1.jpg" alt="An Image">
-        </div>
-      </div>
-      <div class="row justify-content-end">
-        <div class="col-4">
-          <img src="Images/portfolio/work5.jpg" alt="An Image">
-        </div>
-        <div class="col-4">
-          <img src="Images/portfolio/work6.jpg" alt="An Image">
-        </div>
-        <div class="col-4">
-          <img src="Images/portfolio/work7.jpg" alt="An Image">
-        </div>
-        <div class="col-4">
-          <img src="Images/portfolio/work8.jpg" alt="An Image">
-        </div>
-      </div>
-        
+    <p id="portfolio">
+      <img src="Images/portfolio/work4.jpg" alt="portfolio" class="port"><br>
+      <img src="Images/portfolio/work5.jpg" alt="portfolio" class="port">
+      <img src="Images/portfolio/work3.jpg" alt="portfolio" class="port">
+      <img src="Images/portfolio/work6.jpg" alt="portfolio" class="port">
+      <img src="Images/portfolio/work2.jpg" alt="portfolio" class="port">
+      <img src="Images/portfolio/work7.jpg" alt="portfolio" class="port">
+      <img src="Images/portfolio/work1.jpg" alt="portfolio" class="port">
+      <img src="Images/portfolio/work8.jpg" alt="portfolio" class="port">
+    </p>
     <form id="form">
       <h1>CONTACT US</h1>
       <input type="text" id="name" name="name" placeholder="Name" />
@@ -129,7 +111,5 @@
         2019
       </p>
     </div>
-    <script src="scripts/jquery-3.6.0.js"></script>
-    <script src="script.js"></script>
   </body>
 </html>
