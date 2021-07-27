@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="bootstrap.css" type="text/css">
     <link href="css/style.css" rel="stylesheet" type =text/css>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="scripts/jquery-3.6.0.js"></script>
     <script src="scripts/script.js"></script>
     <title>Delani Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat+Alternates&display=swap"
@@ -14,10 +14,10 @@
   </head>
   <p>
     <div id="title">
-      <img src="Images/logo/logo.png" alt="logo">
-      <h1>WELCOME <br />TO DELANI STUDIO</h1>
-      <p>Amazing People, Amazing Designs!!</p>
-      <img src="Images/mouse_click.png" alt="mouse-click">
+      <img src="Images/logo/logo.png" alt="logo" width="96px" height="96px"><br>
+      <h1>WELCOME <br>TO DELANI STUDIO</h1>
+      <p>Amazing People, Amazing Designs!!</p><br>
+      <img src="Images/mouse_click.png" alt="mouse-click" width="23px" height="37px">
     </div>
     <h1>About Us</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
@@ -39,7 +39,7 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <img src="Images/services_icons/design_icon.png" alt="image" id="col1">
+              <img src="Images/services_icons/design_icon.png" alt="image" width="80px" height="83px" id="col1">
               <div class="description1">
                 <header>DESIGN</header>
                 <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
@@ -51,7 +51,7 @@
               </div>
             </div>
             <div class="col">
-              <img src="Images/services_icons/dev_icon.png" alt="image" id="col2">
+              <img src="Images/services_icons/dev_icon.png" alt="image" width="79px" height="76px" id="col2">
               <div class="description2">
                 <header2>DEVELOPMENT</header2>
                   <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
@@ -63,7 +63,7 @@
               </div>
             </div>
             <div class="col">
-              <img src="Images/services_icons/product_icon.png" alt="image" id="col3">
+              <img src="Images/services_icons/product_icon.png" alt="image" width="79px" height="91px" id="col3">
               <div class="description3">  
                 <header3>PRODUCT MANAGEMENT</header3>
                 <p>Donec mattis sem eu orci interdum, eget mattis nisl venenatis. <br>
@@ -75,17 +75,44 @@
               </div> 
           </div>
         </div>
-      </p>
+      </div>
+    </p>
     <h1>PORTFOLIO</h1>
-    <p id="portfolio">
-      <img src="Images/portfolio/work4.jpg" alt="portfolio" class="port"><br>
-      <img src="Images/portfolio/work5.jpg" alt="portfolio" class="port">
-      <img src="Images/portfolio/work3.jpg" alt="portfolio" class="port">
-      <img src="Images/portfolio/work6.jpg" alt="portfolio" class="port">
-      <img src="Images/portfolio/work2.jpg" alt="portfolio" class="port">
-      <img src="Images/portfolio/work7.jpg" alt="portfolio" class="port">
-      <img src="Images/portfolio/work1.jpg" alt="portfolio" class="port">
-      <img src="Images/portfolio/work8.jpg" alt="portfolio" class="port">
+    <p>
+      <div id="portfolio">
+        <div class="port">
+          <img src="Images/portfolio/work4.jpg" alt="portfolio">
+          <div class="name">DIONYSUS</div>
+        </div>
+        <div class="port">
+          <img src="Images/portfolio/work3.jpg" alt="portfolio">
+          <div class="name">MIKROKOSMOS</div>
+        </div>
+        <div class="port">
+          <img src="Images/portfolio/work2.jpg" alt="portfolio">
+          <div class="name">MAGIC SHOP</div>
+        </div>
+        <div class="port">
+          <img src="Images/portfolio/work1.jpg" alt="portfolio">
+          <div class="name">DYNAMITE</div>
+        </div>
+        <div class="port">
+          <img src="Images/portfolio/work5.jpg" alt="portfolio">
+          <div class="name">TELEPATHY</div>
+        </div>
+        <div class="port">
+          <img src="Images/portfolio/work6.jpg" alt="portfolio">
+          <div class="name">FLY TO MY ROOM</div>
+        </div>
+        <div class="port">
+          <img src="Images/portfolio/work7.jpg" alt="portfolio">
+          <div class="name">PERMISSION TO DANCE</div>
+        </div>
+        <div class="port">
+          <img src="Images/portfolio/work8.jpg" alt="portfolio">
+          <div class="name">BANGTAN BOYS</div>
+        </div>
+      </div>
     </p>
     <form id="form">
       <h1>CONTACT US</h1>
@@ -95,16 +122,16 @@
       <button type="submit" id="button">Submit</button>
     </form>
     <div id="apps">
-      <img src="Images/social_icons/twitter.png" alt="icon">
-      <img src="Images/social_icons/dribble.png" alt="icon">
-      <img src="Images/social_icons/facebook.png" alt="icon">
-      <img src="Images/social_icons/g_plus.png" alt="icon">
-      <img src="Images/social_icons/skype.png" alt="icon">
-      <img src="Images/social_icons/stumble_upon.png" alt="icon">
-      <img src="Images/social_icons/you_tube.png" alt="icon">
-      <img src="Images/social_icons/behance.png" alt="icon">
-      <img src="Images/social_icons/pinterest.png" alt="icon">
-      <img src="Images/social_icons/flickr.png" alt="icon">
+      <img src="Images/social_icons/twitter.png" width="50px" height="50px" alt="icon">
+      <img src="Images/social_icons/dribble.png" width="50px" height="50px" alt="icon">
+      <img src="Images/social_icons/facebook.png"  width="50px" height="50px"alt="icon">
+      <img src="Images/social_icons/g_plus.png" width="50px" height="50px" alt="icon">
+      <img src="Images/social_icons/skype.png" width="50px" height="50px" alt="icon">
+      <img src="Images/social_icons/stumble_upon.png" width="50px" height="50px" alt="icon">
+      <img src="Images/social_icons/you_tube.png" width="50px" height="50px" alt="icon">
+      <img src="Images/social_icons/behance.png" width="50px" height="50px" alt="icon">
+      <img src="Images/social_icons/pinterest.png" width="50px" height="50px" alt="icon">
+      <img src="Images/social_icons/flickr.png" width="50px" height="50px" alt="icon">
     </div>
     <div id="footer">
       <p>DELANI STUDIO<br>
