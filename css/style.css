@@ -1,50 +1,76 @@
 #title {
-  background-image: url(/Images/backgrounds/h_img.jpg);
-  text-align: center;
-  padding: 100px;
+  background-image:url(/Images/backgrounds/h_img.jpg);
+  width: 1920px;
+  height: 1071px;
   color: azure;
+  padding-top:300px;
+  padding-left: 900px;
+  position: relative;
 } 
 h1 {
-  text-align: center;
   font-family: 'Merienda', cursive;
-  
 }
 p {
-  text-align:center;
   font-family: 'Montserrat Alternates', sans-serif;
 }
 .services {
   background-image: url(/Images/backgrounds/s_image.jpg);
+  width: 1920px;
+  height: 488px;
   text-align: center;
   padding: 150px;
   color: beige;
 }
 #form {
   background-image: url(/Images/backgrounds/c_image.jpg);
-  position: relative;
-  padding: 280px;
+  width: 1920px; 
+  height: 683px;
+  padding: 100px;
   color: blanchedalmond;
-  
+  text-align: center;
 }
 .description1, .description2, .description3{
   display: none;
 }
-
+.col {
+  margin-left: 100px;
+}
 #portfolio {
-  column-count: 4;
-  
-  margin: 10px;
-
+  height: 650px;
+  width: 1650px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .port {
-
-  margin:10px
+  position: relative;
+  width: 366px;
+  height: 300px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+.port:hover {
+  
+}
+.name {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: white;
+  color: turquoise;
+  display: none;
 
 }
 #apps {
-  margin-left: 300px;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-left: 700px;
+  margin-top: 30px;
+  margin-right: 30px;
+  
 }
 #footer {
   text-align: center;
