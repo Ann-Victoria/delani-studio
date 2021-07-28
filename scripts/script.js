@@ -1,3 +1,4 @@
+
 $ (document).ready(function() {
   $ ('#col1').click(function() {
     $( '.description1').show();
@@ -37,41 +38,23 @@ $ (document).ready(function() {
     $('.description3').hide();
   });
 });
-$ (document).ready(function () {
-  $('.description1').css({
-    'text-align': 'center',
-  });
-});
-$ (document).ready(function () {
-  $ ('.header').css ({
-    'font-style': 'bold',
-    'text-align': 'center'
-  });
-});
-$ (document).ready(function () {
-  $('.description2').css({
-    'text-align': 'center',
-  });
-});
-$ (document).ready(function () {
-  $ ('.header2').css ({
-    'font-style': 'bold',
-    'text-align': 'center'
-  });
-});
-$ (document).ready(function () {
-  $('.description3').css({
-    'text-align': 'center',
-  });
-});
-$ (document).ready(function () {
-  $ ('.header3').css ({
-    'font-style': 'bold',
-    'text-align': 'center'
-  });
-});
-$ (document).ready(function() {
-  $ ('#portfolio')
-})
+
+function myFunction(event) { 
+  event.preventDefault()
+
+  var name = document.getElementById('name').value;
+  console.log(name)
+  var email = document.getElementById('email').value;
+  console.log(email)
+  var message = document.getElementById('message').value;
+  console.log(message)
+  if(!(message===" ") ) {
+    alert("Thank you for contacting us," + name + ".We have received your message")
+  }
+
+}
+
+  
+  
 
 
