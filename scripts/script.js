@@ -51,8 +51,47 @@ function myFunction(event) {
   if(!(message===" ") ) {
     alert("Thank you for contacting us," + name + ".We have received your message")
   }
-
 }
+
+$(document).ready(function() {
+  $('.name').hover(function () {
+    $(this).css('opacity', '0.6');
+    $(this).fadeOut(10000)
+  });
+});
+
+$(document).ready(function() {
+  $('.description1 p').css('text-align', 'center');
+});
+
+$(document).ready(function() {
+  $('.description2 p').css('text-align', 'center');
+});
+
+$(document).ready(function() {
+  $('.description3 p').css('text-align', 'center');
+});
+
+$(document).ready(function() {
+  $('.description1 header').css({'text-align' : 'center' , 'font-weight' : 'bold'})
+})
+
+$(document).ready(function() {
+  $('.description2 header').css({'text-align' : 'center' , 'font-weight' : 'bold'})
+})
+
+$(document).ready(function() {
+  $('.description3 header').css({'text-align' : 'center' , 'font-weight' : 'bold'})
+})
+
+
+
+
+
+
+
+
+
 
   
   
