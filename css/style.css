@@ -13,6 +13,9 @@ h1 {
 p {
   font-family: 'Montserrat Alternates', sans-serif;
 }
+.align {
+  text-align: center;
+}
 .services {
   background-image: url(/Images/backgrounds/s_image.jpg);
   width: 1920px;
@@ -36,6 +39,7 @@ p {
   margin-left: 100px;
 }
 #portfolio {
+  position: relative;
   height: 650px;
   width: 1650px;
   display: flex;
@@ -56,9 +60,14 @@ p {
   left: 20px;
   right: 20px;
   background-color: white;
+  border: solid;
   color: turquoise;
-  display: none;
-
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  font-size: 2em ;
+  opacity: 0;
+  
+  
 }
 #apps {
   display: flex;
@@ -69,4 +78,6 @@ p {
 }
 #footer {
   text-align: center;
+  margin-left: 700px;
+  margin-top: 20px;
 }
