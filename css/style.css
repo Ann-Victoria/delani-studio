@@ -1,5 +1,5 @@
 #title {
-  background-image:url(/Images/backgrounds/h_img.jpg);
+  background-image:url(../Images/backgrounds/h_img.jpg);
   width: 1920px;
   height: 1071px;
   color: azure;
@@ -17,7 +17,7 @@ p {
   text-align: center;
 }
 .services {
-  background-image: url(/Images/backgrounds/s_image.jpg);
+  background-image: url(../Images/backgrounds/s_image.jpg);
   width: 1920px;
   height: 488px;
   text-align: center;
@@ -25,7 +25,7 @@ p {
   color: beige;
 }
 #form {
-  background-image: url(/Images/backgrounds/c_image.jpg);
+  background-image: url(../Images/backgrounds/c_image.jpg);
   width: 1920px; 
   height: 683px;
   padding: 100px;
